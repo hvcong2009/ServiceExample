@@ -40,7 +40,8 @@
                 android:value="" />
         </activity>
 
-        <service android:name=".CustomService" />
+        <service android:name=".CustomForegroundService" />
+        <receiver android:name=".ForegroundServiceReceiver"/>
     </application>
 
 </manifest>

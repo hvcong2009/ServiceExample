@@ -7,7 +7,7 @@
     android:padding="10dp">
 
     <ImageView
-        android:id="@+id/img_song"
+        android:id="@+id/img_songImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/ic_notification"
@@ -16,7 +16,7 @@
 
     <LinearLayout
         android:id="@+id/layout_songInfo"
-        android:layout_toEndOf="@id/img_song"
+        android:layout_toEndOf="@id/img_songImage"
         android:layout_toStartOf="@id/layout_songControl"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
@@ -47,14 +47,14 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/img_pauseOrContinueSong"
+            android:id="@+id/img_pauseOrResumeSong"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_gravity="center"
             android:layout_weight="1"
             app:srcCompat="@drawable/img_pause_button"/>
         <ImageView
-            android:id="@+id/img_deleteSong"
+            android:id="@+id/img_stopSong"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_gravity="center"
