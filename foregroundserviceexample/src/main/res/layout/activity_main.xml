@@ -35,7 +35,6 @@
         android:id="@+id/layout_BottomInfo"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:visibility="gone"
         android:background="#A19E9E"
         android:layout_alignParentBottom="true"
         android:padding="10dp">

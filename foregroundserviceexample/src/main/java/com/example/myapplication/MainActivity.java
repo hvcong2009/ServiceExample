@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnStopService.setOnClickListener(this);
 
         layoutBottom = findViewById(R.id.layout_BottomInfo);
+        layoutBottom.setVisibility(View.GONE);
         imgSong = findViewById(R.id.img_songImage);
         imgPauseOrResumeSong = findViewById(R.id.img_pauseOrResumeSong);
         imgPauseOrResumeSong.setOnClickListener(this);
